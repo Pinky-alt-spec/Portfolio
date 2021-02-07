@@ -22,6 +22,10 @@ def todo(request):
     return render(request, 'Myportfolio/my-projects/todo.html ')
 
 
+def weather(request):
+    return render(request, 'Myportfolio/my-projects/weather.html ')
+
+
 def dentist(request):
     return render(request, 'Myportfolio/my-projects/dentist.html ')
 

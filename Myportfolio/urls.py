@@ -11,6 +11,7 @@ urlpatterns = [
     path('todo', views.todo, name='todo'),
     path('dentist', views.dentist, name='dentist'),
     path('poll', views.poll, name='poll'),
+    path('weather', views.weather, name='weather'),
     # path('web-design', views.MyProjects, name='web-design'),
     path('BscCS', views.bscCS, name='Bcs'),
     path('data-developer', views.dataDev, name='data-developer'),

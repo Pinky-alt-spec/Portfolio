@@ -1112,14 +1112,14 @@
 		    			<div class="col-md-3 col-sm-6 col-centered" style="margin-top:-85px">
 		    				<div class="service-item">
 	    						<span class="fa-stack fa-4x" data-bg=""></span>
-		    						<a href="https://www.unisa.ac.za/">
-		            					<img src="{% static 'Myportfolio\img\poll.png' %}" width="210" height="120">
-		        					</a>
+								<a href="https://pollsterz.herokuapp.com/" target="popup" onclick="window.open('https://pollsterz.herokuapp.com/', width=800, height=400)">
+									<img src="{% static 'Myportfolio\img\poll.png' %}" width="210" height="120">
+								</a>
 	    						<h4>
 	    							<strong>Poll Project</strong>
 	    						</h4>
-	    							<p>You can add any service you want or edit the ones that are already listed.</p>
-	    							<a href="my-projects/ui-ux.html" class="services-more-link btn btn-primary">Learn More</a>
+	    							<p>An opinion poll : It is a human research survey of public opinion from any idea. </p>
+	    							<a href="{% url 'poll' %}" class="services-more-link btn btn-primary">Learn More</a>
 		    				</div>
 		    			</div>
 	    				<div class="col-md-3 col-sm-6 col-centered" style="margin-top:-85px">
@@ -1141,14 +1141,14 @@
 								<span class="fa-stack fa-4x" data-bg="">
 
 								</span>
-	    						<a href="https://www.unisa.ac.za/">
+	    						<a href="https://every-weather.herokuapp.com/" target="popup" onclick="window.open('https://every-weather.herokuapp.com/', width=800, height=400)">
 	            					<img src="{% static 'Myportfolio\img\weatherApp.png' %}" width="210" height="120">
 	        					</a>
 								<h4>
 									<strong>Weather App</strong>
 								</h4>
 								<p>You can add any service you want or edit the ones that are already listed.</p>
-								<a href="my-projects/web-development.html" class="servcies-more-link btn btn-primary">Learn More</a>
+								<a href="{% url 'weather' %}" class="servcies-more-link btn btn-primary">Learn More</a>
 							</div>
 						</div>
     				</div>
