@@ -34,6 +34,10 @@ def poll(request):
     return render(request, 'Myportfolio/my-projects/poll.html ')
 
 
+def ecommerce(request):
+    return render(request, 'Myportfolio/my-projects/ecommerce.html ')
+
+
 def bscCS(request):
     return render(request, 'Myportfolio/education-experience-1/BscCS.html ')
 

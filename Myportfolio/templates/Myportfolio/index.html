@@ -1017,6 +1017,7 @@
                                 	<a class="servcies-more-link btn btn-primary" href="{% static 'Myportfolio/docs/PinxCV.pdf' %}" target="_blank" rel="noopener">
                                         <i class="fa fa-download"></i> Download CV
                                     </a>
+									&nbsp;&nbsp;&nbsp;
                                     <a href="#section-5701279e11070" class="servcies-more-link btn btn-primary">View Projects</a>
                                 </div>
     						</div>
@@ -1116,7 +1117,7 @@
 									<img src="{% static 'Myportfolio\img\poll.png' %}" width="210" height="120">
 								</a>
 	    						<h4>
-	    							<strong>Poll Project</strong>
+	    							<strong>Poll App</strong>
 	    						</h4>
 	    							<p>An opinion poll : It is a human research survey of public opinion from any idea. </p>
 	    							<a href="{% url 'poll' %}" class="services-more-link btn btn-primary">Learn More</a>
@@ -1126,14 +1127,14 @@
 	    					<div class="service-item">
 	    						<span class="fa-stack fa-4x" data-bg="">
 	    						</span>
-	    						<a href="https://www.unisa.ac.za/">
+	    						<a href="https://baby-stroller.herokuapp.com/" target="popup" onclick="window.open('https://baby-stroller.herokuapp.com/', width=800, height=400)">
 	            					<img src="{% static 'Myportfolio\img\ecommerce.jpeg' %}" width="210" height="120">
 	        					</a>
 									<h4>
 										<strong>Ecommerce Website</strong>
 									</h4>
 										<p>You can add any service you want or edit the ones that are already listed.</p>
-										<a href="my-projects/ui-ux.html" class="services-more-link btn btn-primary">Learn More</a>
+										<a href="{% url 'ecommerce' %}" class="services-more-link btn btn-primary">Learn More</a>
 	    					</div>
 	    				</div>
 						<div class="col-md-3 col-sm-6 col-centered" style="margin-top:-85px">
