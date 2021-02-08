@@ -54,8 +54,8 @@ def intern(request):
     return render(request, 'Myportfolio/education-experience-1/it-intern.html ')
 
 
-def sysDev(request):
-    return render(request, 'Myportfolio/education-experience-1/System Developer.html ')
+def softwareDev(request):
+    return render(request, 'Myportfolio/education-experience-1/SoftwareDeveloper.html ')
 
 
 def contact(request):

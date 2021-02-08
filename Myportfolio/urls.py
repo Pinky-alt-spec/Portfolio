@@ -20,5 +20,5 @@ urlpatterns = [
     path('data-developer', views.dataDev, name='data-developer'),
     path('IT-Diploma', views.diploma, name='IT-Diploma'),
     path('it-intern', views.intern, name='it-intern'),
-    path('system-developer', views.sysDev, name='system-developer'),
+    path('software-developer', views.softwareDev, name='software-developer'),
 ]

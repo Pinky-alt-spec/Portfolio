@@ -1014,7 +1014,7 @@
     							<h2 id="home_siteSlogan_2" class=" weight400  shadow1  0 30" style="display:none"></h2>
     							<p id="home_SecondSiteSlogan" class=" weight400 shadow1 background9 2 31">Welcome to my website, I am a Software Developer who is passionate about learning new technologies and creating beautiful Web Application</p>
     							<div>
-                                	<a class="servcies-more-link btn btn-primary" href="{% static 'Myportfolio/docs/PinxCV.pdf' %}" target="_blank" rel="noopener">
+                                	<a class="servcies-more-link btn btn-primary" target="popup" href="{% static 'Myportfolio/docs/PinxCV.pdf' %}" onclick="window.open('{% static 'Myportfolio/docs/PinxCV.pdf' %}')" target="_blank" rel="noopener">
                                         <i class="fa fa-download"></i> Download CV
                                     </a>
 									&nbsp;&nbsp;&nbsp;
@@ -1046,16 +1046,15 @@
 					<div class="row sides">
 						<div class="col-xs-12 col-md-6">
 							<div class="responsive-handler fr-view breakable">
-								<br>I am a <strong>Software Developer</strong> and very passionate about Programming. I enjoy learning new technologies and taking on new challenges. I have +-8 years of professional skills and experience in HTML5, CSS3, Python, Php and Java Script with keen attention to details.<br><br>I became a Team leader of 10 people in my Data Developer Position. I had to take control of how the team will work and QC the data coming in from the field. I later became a Dynamic <strong>Web Development Team Leader</strong> in my latest position. <br />Through guiding the team we were able to develop efforts towards successful project delivery.
+								<br>I am a <strong>Software Developer</strong> and very passionate about Programming. I enjoy learning new technologies and taking on new challenges. I have -- years of professional skills and experience in HTML5, CSS3, Python, Php and Java Script with keen attention to details.<br><br>I became a Team leader of 10 people in my Data Developer Position. I had to take control of how the team will work and QC the data coming in from the field. I later became a Dynamic <strong>Web Development Team Leader</strong> in my latest position. <br />Through guiding the team we were able to develop efforts towards successful project delivery.
                                 <br>I have a very dynamic personality and work well in a team and individually. I strive for perfection in whatever challenge. <br><br> As a leader I would closely manage and follow up the development team and provide all required guidance and technical decision making.
                                 <br>I am currently registered for Computer Science Bsc Degree at UNISA, although the degree is still at its initial stage<br><br>If I am not on my computer, I am spending time with loved ones, or travelling and sight seeing when I get the opportunity.<br><br>
-
 							</div>
 						</div>
 						<div class="col-xs-12 col-md-6">
 							<div class="separateImages text-center">
 								<img src="https://cdn-cms.f-static.net/uploads/3438192/800_5ea4bf92b959b.png" class="img-responsive"
-								style="margin-right: 120px; margin-top:30px; max-height:600px; max-width:80%; display:inline-block;" alt="About me" />
+								style="margin-left: -200px; margin-top:65px; max-height:600px; max-width:80%; display:inline-block;" alt="About me" />
 							</div>
 						</div>
 					</div>
@@ -1085,7 +1084,7 @@
 	    						<span class="fa-stack fa-4x" data-bg="">
 
 	    						</span>
-	    						<a href="https://pinks-todos.herokuapp.com/" target="popup" onclick="window.open('https://pinks-todos.herokuapp.com/', width=800, height=400)">
+	    						<a href="https://pinks-todos.herokuapp.com/" target="popup" onclick="window.open('https://pinks-todos.herokuapp.com/')">
 	            					<img src=" {% static 'Myportfolio/img/Todo.jpg' %}" width="210" height="120">
 	        					</a>
 	    						<h4>
@@ -1100,7 +1099,7 @@
 								<span class="fa-stack fa-4x" data-bg="">
 
 								</span>
-	    						<a href="https://mazinyo-dental.herokuapp.com/" target="popup" onclick="window.open('https://mazinyo-dental.herokuapp.com/', width=800, height=400)">
+	    						<a href="https://mazinyo-dental.herokuapp.com/" target="popup" onclick="window.open('https://mazinyo-dental.herokuapp.com/')">
 	            					<img src="{% static 'Myportfolio\img\website.jpg' %}" width="210" height="120">
 	        					</a>
 								<h4>
@@ -1113,7 +1112,7 @@
 		    			<div class="col-md-3 col-sm-6 col-centered" style="margin-top:-85px">
 		    				<div class="service-item">
 	    						<span class="fa-stack fa-4x" data-bg=""></span>
-								<a href="https://pollsterz.herokuapp.com/" target="popup" onclick="window.open('https://pollsterz.herokuapp.com/', width=800, height=400)">
+								<a href="https://pollsterz.herokuapp.com/" target="popup" onclick="window.open('https://pollsterz.herokuapp.com/')">
 									<img src="{% static 'Myportfolio\img\poll.png' %}" width="210" height="120">
 								</a>
 	    						<h4>
@@ -1127,13 +1126,13 @@
 	    					<div class="service-item">
 	    						<span class="fa-stack fa-4x" data-bg="">
 	    						</span>
-	    						<a href="https://baby-stroller.herokuapp.com/" target="popup" onclick="window.open('https://baby-stroller.herokuapp.com/', width=800, height=400)">
+	    						<a href="https://baby-stroller.herokuapp.com/" target="popup" onclick="window.open('https://baby-stroller.herokuapp.com/')">
 	            					<img src="{% static 'Myportfolio\img\ecommerce.jpeg' %}" width="210" height="120">
 	        					</a>
 									<h4>
 										<strong>Ecommerce Website</strong>
 									</h4>
-										<p>You can add any service you want or edit the ones that are already listed.</p>
+										<p>An ecommerce website where users can purchase items and pay online.</p>
 										<a href="{% url 'ecommerce' %}" class="services-more-link btn btn-primary">Learn More</a>
 	    					</div>
 	    				</div>
@@ -1142,13 +1141,13 @@
 								<span class="fa-stack fa-4x" data-bg="">
 
 								</span>
-	    						<a href="https://every-weather.herokuapp.com/" target="popup" onclick="window.open('https://every-weather.herokuapp.com/', width=800, height=400)">
+	    						<a href="https://every-weather.herokuapp.com/" target="popup" onclick="window.open('https://every-weather.herokuapp.com/')">
 	            					<img src="{% static 'Myportfolio\img\weatherApp.png' %}" width="210" height="120">
 	        					</a>
 								<h4>
 									<strong>Weather App</strong>
 								</h4>
-								<p>You can add any service you want or edit the ones that are already listed.</p>
+								<p>An app that forecasts current weather for you city via OpenWeather API! </p>
 								<a href="{% url 'weather' %}" class="servcies-more-link btn btn-primary">Learn More</a>
 							</div>
 						</div>
@@ -1180,7 +1179,7 @@
 							</i>
 						</div>
 						<div class="cd-timeline-content box-primary s123-box-bottom-primary-border s123-box-padding">
-							<h2>National Diploma : Information Technology</h2>
+							<h2>Diploma : Information Technology</h2>
 							<p>Completed 2018</p>
 							<a href="{% url 'IT-Diploma' %}"class="cd-read-more btn btn-primary">Learn More
 							</a>
@@ -1208,7 +1207,7 @@
                         <div class="cd-timeline-content box-primary s123-box-bottom-primary-border s123-box-padding">
                             <h2>Software Developer</h2>
                             <p>Developing websites and system applications</p>
-                            <a href="{% url 'system-developer' %}" class="cd-read-more btn btn-primary">Learn More</a>
+                            <a href="{% url 'software-developer' %}" class="cd-read-more btn btn-primary">Learn More</a>
                             <span class="cd-date">May&nbsp;14,&nbsp;2020</span>
                         </div>
                     </div>

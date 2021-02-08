@@ -244,10 +244,10 @@
 							<div class="col-lg-2 col-md-2 col-sm-2">
 								<img src="{% static 'Myportfolio\img\weatherApp.png' %}" class="img-responsive" alt="poll"/>
 								<div class="is-grouped"><br />
-									<p>An opinion poll : It is a human research survey of public opinion from any idea. It calculates how many people selected an opinion - Of which Research Stats will be an outcome </p><br />
-									<a href="https://every-weather.herokuapp.com/" target="popup" class="servcies-more-link btn btn-primary" onclick="window.open('https://every-weather.herokuapp.com/', width=1000, height=800)">Live Version</a>
+									<p>An app that forecasts current weather for you city via OpenWeather API! </p><br />
+									<a href="https://every-weather.herokuapp.com/" target="popup" class="servcies-more-link btn btn-primary" onclick="window.open('https://every-weather.herokuapp.com/')">Live Version</a>
 									<p></p>
-									<a href="https://github.com/Pinky-alt-spec/Weather.git" target="popup" class="servcies-more-link btn btn-primary" onclick="window.open('https://github.com/Pinky-alt-spec/Weather.git', width=1000, height=800)">View GitHub</a>
+									<a href="https://github.com/Pinky-alt-spec/Weather.git" target="popup" class="servcies-more-link btn btn-primary" onclick="window.open('https://github.com/Pinky-alt-spec/Weather.git')">View GitHub</a>
 		    					</div>
 		    				</div>
 							<div class="col-lg-10 col-md-10 col-sm-10">
@@ -255,9 +255,8 @@
 									<tr>
 										<td><b style="font-size:20px">Brief Overview - Weather App</b>
 											<td>
-												<ul style="margin-left: 50px">
-													<li>A Pollster - A person who conducts polls, will conduct a series of question and then extrapolating generalities in ratio.</li><br />
-													<li>This has tested my ability to create a system that can count on a smaller scale, and bring out the outcomes to be used further. </li><br />
+												<ul style="margin-left: 50px"><br />
+													<li>This app has tested my ability to use API's and how to get weather data for the app</li><br />
 												</ul>
 											</td>
 										</td>
@@ -287,8 +286,8 @@
 			                                </style>
 			                                <table class="center" style="margin-bottom:1em">
 											  <tr>
-												<td style="background-color: #9c8e56; color:#fff"><b>Skills Used</b></td>
-													<td style="background-color: #9c8e56; color:#fff">
+												<td style="background-color: #b8a354; color:#fff"><b>Skills Used</b></td>
+													<td style="background-color: #b8a354; color:#fff">
 														<ul>
 															<h3>Front-end Part</h3>
 															<li>Python</li>
@@ -297,7 +296,7 @@
 															<br />
 															<h3>Back-end Part</h3>
 															<li>Django Framework</li>
-															<li>Weather API</li>
+															<li>OpenWeatherMap API</li>
 															<li>SQLite 3</li>
 															<li>Used Heroku Free Hosting Services</li>
 														</ul>
@@ -307,15 +306,15 @@
 												<td style="background-color: #a1956a; color:#fff"><b>Project Difficulties</b></td>
 													<td style="background-color: #a1956a; color:#fff">
 														<ul>
-                                                			<li>None</li>
+                                                			<li>Some of the cities are not available from the API. </li>
                                             			</ul>
 													</td>
 											  </tr>
 												<tr>
-													<td style="background-color: #b8a354; color:#fff"><b>Project Solutions</b>
-														<td style="background-color: #b8a354; color:#fff">
+													<td style="background-color: #9c8e56; color:#fff"><b>Project Solutions</b>
+														<td style="background-color: #9c8e56; color:#fff">
 															<ul>
-																<li>None</li>
+																<li>I had to use an IF_STATEMENT to determine if the system's error response is 404-not found, or if it is 200-found </li>
 															</ul>
 														</td>
 													</td>
@@ -324,8 +323,9 @@
 													<td style="background-color: #c7b25f; color:#fff"><b>Notable Features</b>
 														<td style="background-color: #c7b25f; color:#fff">
 													<ul>
-														<li>The user can view the results of previous voters</li>
-														<li>Can also view results in numbers and graph</li>
+														<li>The form validates the data input</li>
+														<li>Duplicate city checks - The system checks if the city has been entered more than once.</li>
+														<li>If the user enters the city that is unknown, there an error message displayed </li>
                                             		</ul>
 														</td>
 													</td>
